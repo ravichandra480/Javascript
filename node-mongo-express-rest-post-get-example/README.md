@@ -17,7 +17,10 @@ MONGO+EXPRESSJS+NODEJS
 	Method 1 : If nodejs is installed globalle
 		a. Startd mongodb
 		b. In comand prompt navigate to serverjs
-		c. Run -> node server.js
+		c. Run -> node 
+			## Usage
+			```js
+			server.js
 	Method 2 : If nodejs is not instaled then download node.exe file and paste exe file in the downloaded project and proceed to method1
 	
 	Output :
