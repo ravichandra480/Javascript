@@ -1,7 +1,7 @@
 MONGO+EXPRESSJS+NODEJS
 ======================
 	Sample configuration for nodejs middleware for REST api (GET and POST only)
-	Required npm modules:
+	Require npm modules:
 		mongoose : TO connect to mongo db mongoose driver is used
 		express : For rouiting
 		body-parser : Get data from request body
