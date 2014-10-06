@@ -1,9 +1,14 @@
-﻿var express = require('express');
+// Required frame works
+var express = require('express');
 var mongoose = require('mongoose');
 var bodyParser = require('body-parser'); 
+
+// Instance for express app
 var app = express();
 var router = express.Router();
 app.use(bodyParser.urlencoded({ extended: true }));
+
+// Connect to mogo server db ip : 127.0.0.1 , Port : 27017
 var db = mongoose.connect('mongodb://127.0.0.1:27017/test');
 app.use('/api', router);
 var userSchema = mongoose.Schema({
