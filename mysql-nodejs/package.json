@@ -1,0 +1,25 @@
+{
+  "name": "mysql-nodejs",
+  "version": "1.0.0",
+  "description": "mysql driver",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ravichandra480/Javascript"
+  },
+  "keywords": [
+    "node",
+    "mysql",
+    "db"
+  ],
+  "author": "Ravi Chandra R",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ravichandra480/Javascript/issues"
+  },
+  "homepage": "https://github.com/ravichandra480/Javascript"
+}
